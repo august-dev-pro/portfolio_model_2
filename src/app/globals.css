@@ -2,20 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+svg {
+  width: 20px;
+}
+.container {
+  margin: 0 auto;
+}
+.section {
+  padding: 50px 0;
+}
+.section-head {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.section-title {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "MaPoliceBold";
+  text-align: center;
+}
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.socials-s-links {
+  background-color: #ff7b00; /* gris foncé */
+  border-radius: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@font-face {
+  font-family: "MaPolice";
+  src: url("./fonts/Quicksand-VariableFont_wght.ttf") format("truetype"); /* Mets le bon chemin et format de la police */
+  font-weight: normal; /* Ou `bold` si tu as différentes variantes */
+  font-style: normal; /* Change si tu utilises `italic` ou autre */
+}
+@font-face {
+  font-family: "MaPoliceBold";
+  src: url("./fonts/Quicksand-Bold.ttf") format("truetype"); /* Mets le bon chemin et format de la police */
+  font-weight: normal; /* Ou `bold` si tu as différentes variantes */
+  font-style: normal; /* Change si tu utilises `italic` ou autre */
+}
+
+@screen md {
+  .section-content {
+    padding: 0 40px;
+    gap: 50px;
+  }
+  .section {
+    padding: 80px 0;
+  }
 }

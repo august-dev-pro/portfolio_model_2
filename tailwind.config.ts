@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "orange-color": "#FB923C",
+        "orange-b-color": "#FF7500",
+      },
+      fontFamily: {
+        sans: ["MaPolice", "sans-serif"], // Remplace 'sans' si tu souhaites appliquer à une autre famille
+        sansbold: ["MaPoliceBold", "sans-serif"], // Remplace 'sans' si tu souhaites appliquer à une autre famille
       },
     },
   },
