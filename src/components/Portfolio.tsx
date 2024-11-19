@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import image1 from "@/imgs/pexels-pixabay-267469.jpg";
 import image2 from "@/imgs/whatsapp-detail.png";
 import image3 from "@/imgs/OIP2.jpeg";
