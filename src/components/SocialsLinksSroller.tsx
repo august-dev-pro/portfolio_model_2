@@ -5,7 +5,6 @@ import {
   faTwitter,
   faInstagram,
   faLinkedin,
-  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link"; // Importation de Link depuis Next.js
 

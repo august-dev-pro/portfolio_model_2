@@ -3,8 +3,7 @@ import image1 from "@/imgs/pexels-pixabay-267469.jpg";
 import image2 from "@/imgs/whatsapp-detail.png";
 import image3 from "@/imgs/OIP2.jpeg";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 import Link from "next/link";
 
 const Portfolio = () => {
