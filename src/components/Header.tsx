@@ -51,7 +51,7 @@ const Header = () => {
               {/* Menu mobile */}
             </div>
             {isMenuOpen && (
-              <div className="absolute top-10 right-0 bg-white shadow-lg w-full h-screen md:hidden z-20">
+              <div className="absolute top-10 right-0 bg-white shadow-lg w-full h-screen md:hidden  z-[100]">
                 <ul className="flex flex-col items-center py-10 space-y-6">
                   {headerLinks.map((item, index) => (
                     <li key={index}>

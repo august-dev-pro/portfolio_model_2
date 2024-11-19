@@ -10,7 +10,7 @@ import Link from "next/link"; // Importation de Link depuis Next.js
 
 const SocialsLinksScroller = () => {
   return (
-    <div className="fixed socials-s-links z-50 right-4 top-[15%] flex flex-col space-y-5 p-[10px] bg-gray-900 text-white">
+    <div className="fixed socials-s-links z-20 right-4 top-[15%] flex flex-col space-y-5 p-[10px] bg-gray-900 text-white">
       {/* Facebook */}
       <Link className="" href="#" passHref>
         <div
